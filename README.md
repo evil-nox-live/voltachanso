@@ -9,7 +9,7 @@ V搜——一个简单的 Pandownload 搜索插件
 
 1. 按照[提示](https://github.com/voltachan/voltachanso/blob/master/register.md)申请 API ，获取 `appKey` 和 `openid`
 2. 填写 `search_voltachan.lua` 中开头的 `app_key` 和 `open_id`
-3. 复制到 `PanData\script` ，重启 Pandownload 即可使用。
+3. 复制到 `PanData\script` ，重启 Pandownload ，选择 `V搜` 即可使用。
 
 ## 演示图片
 
