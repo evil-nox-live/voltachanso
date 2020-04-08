@@ -119,6 +119,20 @@ function getIcon(isdir, type)
   return "icon/FileType/Middle/"..icon.."Type.png"
 end
 function onSearch(key, page)
+  if app_key=="XXXXX" or open_id=="XXXXX" then
+    pd.logInfo("请在插件中输入申请的app_key和open_id！")
+    local r={}
+    table.insert(r, {
+      ["url"] = "",
+      ["title"] = "{c #ff0000}请在插件中输入申请的app_key和open_id！{/c}",
+      ["time"] = os.date("%Y-%m-%d %H:%M", os.time()),
+      ["showhtml"] = "true",
+      ["tooltip"] = "请在插件中输入申请的app_key和open_id！",
+      ["icon_size"] = "28,28",
+      ["image"] = getIcon(true),
+    })
+    return r
+  end
   local request_body = "appKey="..app_key.."&openId="..open_id.."&highlight=1&q="..key.."&pageSize=25&currentPage="..page
   local r = ""
 	local c = curl.easy{
