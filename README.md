@@ -1,6 +1,13 @@
 # V搜
 V搜——一个简单的 Pandownload 搜索插件
 
+```
+当前版本：0.0.2
+更新时间：2020年4月8日22:08:51
+```
+
+
+
 ## 下载地址
 
 > [search_voltachan.lua](https://raw.githubusercontent.com/voltachan/voltachanso/master/search_voltachan.lua)

@@ -12,8 +12,8 @@ local curl=require("lcurl.safe")
 
 script_info = {
   title = "V搜",
-  description = "更新时间：2020年4月8日19:24:27",
-  version = "0.0.1"
+  description = "更新时间：2020年4月8日22:08:51",
+  version = "0.0.2"
 }
 
 local  filetype = {
